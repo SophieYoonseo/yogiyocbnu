@@ -98,7 +98,7 @@ public class MapViewRealTimeActivity extends AppCompatActivity implements
 
         initMap();
 
-        setTitle("현재 위치기반 지도");
+        setTitle("Map View");
 
         // Get user's current location
         tracker = new GPSTracker(this);
