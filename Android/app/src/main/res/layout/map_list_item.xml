@@ -63,7 +63,7 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1.0"
                 android:background="@drawable/round_shape"
-                android:text="@string/text_call"
+                android:text="전화걸기"
                 android:textColor="#ffffff" />
 
             <Button
@@ -74,7 +74,7 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1.0"
                 android:background="@drawable/round_shape"
-                android:text="@string/text_book"
+                android:text="예약"
                 android:textColor="@color/white" />
         </LinearLayout>
     </LinearLayout>
