@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_grp1">
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/ic_location_city_black"
+            android:title="목적지" />
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@drawable/ic_directions_car_black"
+            android:title="주변 가게들 찾기" />
+        <item
+            android:id="@+id/nav_myfriends"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="나의 친구들" />
+        <item
+            android:id="@+id/nav_utility"
+            android:icon="@drawable/ic_utilities"
+            android:title="부가기능" />
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_grp2">
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about_us"
+            android:title="만든이들" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="로그아웃" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="설정"/>
+    </group>
+
+</menu>
