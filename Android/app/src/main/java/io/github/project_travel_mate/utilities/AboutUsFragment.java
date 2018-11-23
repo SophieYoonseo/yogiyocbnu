@@ -29,10 +29,10 @@ public class AboutUsFragment extends Fragment {
     private static final String EMAIL = "projecttravelmate.github.io@gmail.com";
     private static final String WEBSITE = "http://project-travel-mate.github.io/Travel-Mate/";
     private static final String PRIVACY_POLICY = "https://sites.google.com/view/privacy-policy-travel-mate/home";
-    private static final String GITHUB_REPO = "https://github.com/project-travel-mate/Travel-Mate/";
+    private static final String GITHUB_REPO = "https://github.com/saechimdaeki/softwareproject";
     private static final String SLACK_LINK = "https://join.slack.com/t/project-travel-mate/shared_invite/enQtNDE2MjgyOTA5ODg5LT" +
             "gwZGQ3NmY3Y2JjZTIxMWYwMTdkYzZiZmFjMjQ1ZDc1ZmM5NTNkYzQ3M2EwNjVmMzIyYTE4YzRiNjA4ZWRhZDc";
-    private static final String BUY_ME_A_COFFEE = "https://www.buymeacoffee.com/qITGMWB";
+
 
     private Context mContext;
 
@@ -76,27 +76,9 @@ public class AboutUsFragment extends Fragment {
         startActivity(viewIntent);
     }
 
-    @OnClick(R.id.cv_privacy_policy)
-    public void onPrivacyPolicyClicked() {
-        Intent viewIntent =
-                new Intent(Intent.ACTION_VIEW, Uri.parse(PRIVACY_POLICY));
-        startActivity(viewIntent);
-    }
 
-    @OnClick(R.id.cv_website)
-    public void onWebsiteClicked() {
-        Intent viewIntent =
-                new Intent(Intent.ACTION_VIEW, Uri.parse(WEBSITE));
-        startActivity(viewIntent);
-    }
 
-    @OnClick(R.id.cv_contact_us)
-    public void onContactUsClicked() {
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto", EMAIL, null));
-        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_hello));
-        startActivity(Intent.createChooser(intent, getString(R.string.email_send)));
-    }
+
 
     @OnClick(R.id.cv_share)
     public void onShareClicked() {
@@ -117,30 +99,16 @@ public class AboutUsFragment extends Fragment {
         }
     }
 
-    @OnClick(R.id.cv_slack)
-    public void onSlackClicked() {
-        Intent viewIntent =
-                new Intent(Intent.ACTION_VIEW, Uri.parse(SLACK_LINK));
-        startActivity(viewIntent);
-    }
+
 
     @OnClick(R.id.cv_bmc)
     public void onBuyMeACoffeeClicked() {
         Intent viewIntent =
-                new Intent(Intent.ACTION_VIEW, Uri.parse(BUY_ME_A_COFFEE));
+                new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.gifticon.com/main.do"));
         startActivity(viewIntent);
     }
 
-    @OnClick(R.id.view_contributors)
-    public void onViewContributorsClicked() {
-        Fragment fragment;
-        FragmentManager fragmentManager = getFragmentManager();
-        fragment = ContributorsFragment.newInstance();
-        if (fragment != null && fragmentManager != null) {
-            fragmentManager.beginTransaction().addToBackStack(null).replace(R.id.inc, fragment).commit();
-        }
-    }
-
+ 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
