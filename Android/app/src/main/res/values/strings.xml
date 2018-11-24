@@ -23,29 +23,29 @@
     <string name="title_activity_city_history">City History</string>
 
     <!-- login/signup strings -->
-    <string name="email_id">Email id</string>
-    <string name="password">Password</string>
-    <string name="confirm_password">Confirm Password</string>
+    <string name="email_id">이메일 아이디</string>
+    <string name="password">패스워드</string>
+    <string name="confirm_password">패스워드 확인</string>
     <string name="login">Login</string>
-    <string name="signup">Signup</string>
-    <string name="toast_invalid_username_or_password">Invalid username or password</string>
+    <string name="signup">회원가입</string>
+    <string name="toast_invalid_username_or_password">아이디나 비밀번호가 불명확</string>
 
     <!-- reset password strings -->
-    <string name="submit">Submit</string>
-    <string name="text_back_to_login"><u>Back to login</u></string>
-    <string name="text_forgot_password"><u>Forgot password? Click here to reset.</u></string>
-    <string name="text_resend_code"><u>Didn\'t get the code? Resend code.</u></string>
-    <string name="text_code_sent_alert">A reset code has been sent to your email id : %1$s. Please enter the code below.</string>
-    <string name="confirm">Confirm</string>
-    <string name="text_code_resent_alert">A new code has been sent</string>
-    <string name="text_password_updated_alert">Your password has been reset. Login with the new password.</string>
+    <string name="submit">제출</string>
+    <string name="text_back_to_login"><u>로그인하러가기</u></string>
+    <string name="text_forgot_password"><u>비밀번호를 까먹었다면 클릭.</u></string>
+    <string name="text_resend_code"><u>코드를 받지 못하였나요??? 재전송.</u></string>
+    <string name="text_code_sent_alert">너의 이메일주소로 보냈습니다 코드를 </string>
+    <string name="confirm">확인</string>
+    <string name="text_code_resent_alert">새로운 코드 생성</string>
+    <string name="text_password_updated_alert">패스워드초기화.</string>
 
     <!-- Travel home page strings -->
-    <string name="hotel">HOTEL BOOKING</string>
-    <string name="online_Shopping">ONLINE SHOPPING</string>
-    <string name="real_time_locator">REAL TIME LOCATOR</string>
+    <string name="hotel">글로벌로 뻗어나가는 C B N U</string>
+    <string name="online_Shopping">아마존 뽐뿌</string>
+    <string name="real_time_locator">현재 위치기반 모든정보 찾기 </string>
     <string name="fun_facts">Fun Facts</string>
-    <string name="search_hint">What are you looking for…?</string>
+    <string name="search_hint">무엇을 찾고있는가 </string>
     <string name="search_title">Cities</string>
     <string name="spotlight_home_page">Unfold the city cards to get easy access to information</string>
 
@@ -57,17 +57,17 @@
     <string name="title">Select items to display in map</string>
     <string name="choose">Select</string>
     <array name="items">
-        <item>Food</item>
-        <item>Hangout Spots</item>
-        <item>Monuments</item>
-        <item>Bus Stop</item>
-        <item>Shopping</item>
-        <item>Petrol</item>
+        <item>레스토랑</item>
+        <item>핫플레이스</item>
+        <item>기념물</item>
+        <item>버스정거장</item>
+        <item>매장</item>
+        <item>주유소</item>
         <item>ATM</item>
-        <item>Hospital</item>
+        <item>병원</item>
     </array>
-    <string name="no_activity_for_browser">No app found to open this website</string>
-    <string name="nearby_places">Nearby Places</string>
+    <string name="no_activity_for_browser">이 곳은 웹사이트가 등록되어있지않음</string>
+    <string name="nearby_places">너의 장소근처</string>
     <string name="kms">kms</string>
 
     <!-- Checklist strings -->
@@ -136,14 +136,14 @@
     <string name="bottom_info_string">Share this code with the people to share your contact details.</string>
 
     <!-- Constant texts -->
-    <string name="text_hangout">Hangout</string>
-    <string name="text_monuments">Monuments</string>
-    <string name="text_shopping">Shopping</string>
-    <string name="text_restaurants">Restaurants</string>
+    <string name="text_hangout">핫플레이스</string>
+    <string name="text_monuments">기념물</string>
+    <string name="text_shopping">매장</string>
+    <string name="text_restaurants">음식점</string>
     <string name="text_city_trends">City Trends</string>
     <string name="text_city_map">City Map</string>
-    <string name="text_login"><u>Already a member? Login</u></string>
-    <string name="text_signup_or"><u>Not registered yet? Create new account</u></string>
+    <string name="text_login"><u>이미멤버셧나?? 가입</u></string>
+    <string name="text_signup_or"><u>가입하세욘</u></string>
     <string name="text_go">Go</string>
     <string name="text_locate">Locate</string>
     <string name="text_more">More</string>
@@ -292,11 +292,11 @@
     <string name="votes">votes</string>
 
     <!--ListView Real Time acitivy -->
-    <string name="food">Food</string>
-    <string name="hangout">Hangout Spots</string>
-    <string name="hospital">Hospitals</string>
-    <string name="petrol">Petrol Pumps</string>
-    <string name="travelling">Bus Stops</string>
+    <string name="food">음식점</string>
+    <string name="hangout">핫플레이스</string>
+    <string name="hospital">병원</string>
+    <string name="petrol">주유소</string>
+    <string name="travelling">버스 정거장</string>
     <string name="atm">ATM</string>
     <string name="more">More…</string>
     <string name="tap_for_more_details">Tap for more details</string>
