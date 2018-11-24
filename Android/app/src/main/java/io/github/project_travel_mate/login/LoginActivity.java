@@ -352,7 +352,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
      */
     @Override
     public void resendResetCode() {
-        showMessage(getString(R.string.text_code_resent_alert));
+        showMessage("코드를 보냈습니다.");
     }
 
     /**

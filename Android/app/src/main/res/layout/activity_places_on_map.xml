@@ -76,4 +76,5 @@
     </LinearLayout>
 
     <include layout="@layout/bottomsheet_map_cards" />
+
 </android.support.design.widget.CoordinatorLayout>

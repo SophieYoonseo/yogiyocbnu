@@ -64,7 +64,7 @@ public class MapListItemAdapter extends BaseAdapter {
             } catch (Exception e) {
                 Activity activity = (Activity) mContext;
                 TravelmateSnackbars.createSnackBar(activity.findViewById(R.id.list_view_realtime),
-                        R.string.no_activity_for_browser, Snackbar.LENGTH_LONG).show();
+                        "주소가 없네요.", Snackbar.LENGTH_LONG).show();
 
             }
         });
