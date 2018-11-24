@@ -57,7 +57,7 @@
     <string name="title">Select items to display in map</string>
     <string name="choose">Select</string>
     <array name="items">
-        <item>레스토랑</item>
+        <item>음식점</item>
         <item>핫플레이스</item>
         <item>기념물</item>
         <item>버스정거장</item>
