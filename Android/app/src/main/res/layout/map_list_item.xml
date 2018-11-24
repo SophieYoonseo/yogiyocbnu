@@ -73,7 +73,7 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1.0"
                 android:background="@drawable/round_shape"
-                android:text="예약"
+                android:text="사이트방문"
                 android:textColor="@color/white" />
         </LinearLayout>
     </LinearLayout>
