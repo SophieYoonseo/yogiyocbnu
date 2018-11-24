@@ -133,7 +133,7 @@
                                 android:layout_margin="4dp"
                                 android:layout_weight="1.0"
                                 android:background="@drawable/round_shape"
-                                android:text="사이트 방문"
+                                android:text="예약"
                                 android:textColor="@color/white" />
 
                         </LinearLayout>
