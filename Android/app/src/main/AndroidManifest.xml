@@ -132,7 +132,10 @@
             android:theme="@style/FullProfileImageTheme" />
         <activity android:name="io.github.project_software_with_opensource.utilities.WeatherForecastActivity" />
         <activity android:name="io.github.project_software_with_opensource.utilities.CompassActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.CurrencyActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.WorldClockActivity" />
         <activity android:name="io.github.project_software_with_opensource.utilities.CurrencyListViewActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.TimezoneListViewActivity" />
         <activity android:name="io.github.project_software_with_opensource.destinations.description.WeatherActivity" />
         <activity android:name="io.github.project_software_with_opensource.utilities.UpcomingWeekendsActivity" />
         <activity android:name="io.github.project_software_with_opensource.destinations.description.CityHistoryActivity" />
