@@ -265,7 +265,7 @@
 
     <string name="sign_out">로그아웃</string>
 
-    <string name="default_status">Write something about yourself…</string>
+    <string name="default_status">자기소개 </string>
 
     <!-- Notifications -->
     <string name="no_notifications">You don\'t have any notifications.</string>
@@ -310,8 +310,8 @@
     <string name="change_password_heading">비밀번호 변경</string>
     <string name="old_password">현재 비밀번호</string>
     <string name="new_password">새 비밀번호</string>
-    <string name="read_notifications_message">Show my read notifications</string>
-    <string name="show_quotes_message">Show daily quotes</string>
+    <string name="read_notifications_message">공지 알림설정</string>
+    <string name="show_quotes_message">명언 알림 설정</string>
     <string name="required_error">Required!</string>
     <string name="password_updated">비밀번호 변경</string>
     <string name="status_character_limit">/100</string>

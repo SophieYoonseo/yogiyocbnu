@@ -10,7 +10,7 @@ import java.util.List;
 
 import flipviewpager.utils.FlipSettings;
 import flipviewpager.view.FlipViewPager;
-import io.github.project_travel_mate.R;
+import io.github.project_software_with_opensource.R;
 
 /**
  * @author Yalantis

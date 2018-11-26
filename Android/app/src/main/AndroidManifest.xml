@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!-- suppress ALL -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.github.project_travel_mate">
+    package="io.github.project_software_with_opensource">
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature
@@ -35,11 +35,11 @@
         android:theme="@style/AppTheme"
         tools:replace="android:fullBackupContent">
         <activity
-            android:name=".mytrips.TripImageActivity"
+            android:name="io.github.project_software_with_opensource.mytrips.TripImageActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".MainActivity"
+            android:name="io.github.project_software_with_opensource.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppThemeNoBar"
             android:windowSoftInputMode="adjustResize">
@@ -61,24 +61,24 @@
             android:enabled="true" />
 
         <activity
-            android:name=".utilities.ChecklistActivity"
+            android:name="io.github.project_software_with_opensource.utilities.ChecklistActivity"
             android:label="@string/title_activity_select_city"
             android:theme="@style/AppTheme_picker" />
         <activity
-            android:name=".travel.ShoppingCurrentCityActivity"
+            android:name="io.github.project_software_with_opensource.travel.ShoppingCurrentCityActivity"
             android:label="@string/title_activity_shopping_currentcity"
             android:theme="@style/AppTheme_picker" />
         <activity
-            android:name=".travel.HotelsActivity"
+            android:name="io.github.project_software_with_opensource.travel.HotelsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_hotels"
             android:theme="@style/AppTheme_picker" />
         <activity
-            android:name=".travel.MapViewRealTimeActivity"
+            android:name="io.github.project_software_with_opensource.travel.MapViewRealTimeActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme_picker" />
         <activity
-            android:name=".SplashActivity"
+            android:name="io.github.project_software_with_opensource.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppThemeNoBar">
             <intent-filter>
@@ -92,31 +92,31 @@
                 android:resource="@xml/shortcuts" />
         </activity>
         <activity
-            android:name=".destinations.funfacts.FunFactsActivity"
+            android:name="io.github.project_software_with_opensource.destinations.funfacts.FunFactsActivity"
             android:label="@string/title_activity_fun_facts"
             android:theme="@style/AppTheme_picker" />
-        <activity android:name=".utilities.ShareContactActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.ShareContactActivity" />
         <activity
-            android:name=".login.LoginActivity"
+            android:name="io.github.project_software_with_opensource.login.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppThemeNoBar" />
         <activity
-            android:name=".destinations.description.FinalCityInfoActivity"
+            android:name="io.github.project_software_with_opensource.destinations.description.FinalCityInfoActivity"
             android:theme="@style/AppThemeNoBar" />
-        <activity android:name=".destinations.description.PlacesOnMapActivity" />
-        <activity android:name=".mytrips.AddNewTripActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.PlacesOnMapActivity" />
+        <activity android:name="io.github.project_software_with_opensource.mytrips.AddNewTripActivity" />
         <activity
-            android:name=".mytrips.MyTripInfoActivity"
+            android:name="io.github.project_software_with_opensource.mytrips.MyTripInfoActivity"
             android:theme="@style/AppThemeNoBar"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".destinations.description.TweetsActivity" />
-        <activity android:name=".VerifyEmailActivity"
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.TweetsActivity" />
+        <activity android:name="io.github.project_software_with_opensource.VerifyEmailActivity"
             android:label="@string/verify_email"
             android:theme="@style/AppThemeNoBar" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="io.github.project_travel_mate.shareFile"
+            android:authorities="io.github.project_software_with_opensource.shareFile"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -124,29 +124,29 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".friend.FriendsProfileActivity" />
+        <activity android:name="io.github.project_software_with_opensource.ProfileActivity" />
+        <activity android:name="io.github.project_software_with_opensource.friend.FriendsProfileActivity" />
 
         <activity
-            android:name=".FullScreenImage"
+            android:name="io.github.project_software_with_opensource.FullScreenImage"
             android:theme="@style/FullProfileImageTheme" />
-        <activity android:name=".utilities.WeatherForecastActivity" />
-        <activity android:name=".utilities.CompassActivity" />
-        <activity android:name=".utilities.CurrencyActivity" />
-        <activity android:name=".utilities.WorldClockActivity" />
-        <activity android:name=".utilities.CurrencyListViewActivity" />
-        <activity android:name=".utilities.TimezoneListViewActivity" />
-        <activity android:name=".destinations.description.WeatherActivity" />
-        <activity android:name=".utilities.UpcomingWeekendsActivity" />
-        <activity android:name=".destinations.description.CityHistoryActivity" />
-        <activity android:name=".destinations.description.CityMapActivity" />
-        <activity android:name=".travel.ListViewRealTimeActivity" />
-        <activity android:name=".destinations.description.RestaurantsActivity" />
-        <activity android:name=".destinations.description.TweetsDescriptionActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.WeatherForecastActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.CompassActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.CurrencyActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.WorldClockActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.CurrencyListViewActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.TimezoneListViewActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.WeatherActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.UpcomingWeekendsActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.CityHistoryActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.CityMapActivity" />
+        <activity android:name="io.github.project_software_with_opensource.travel.ListViewRealTimeActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.RestaurantsActivity" />
+        <activity android:name="io.github.project_software_with_opensource.destinations.description.TweetsDescriptionActivity" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-        <activity android:name=".utilities.QuotesActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.QuotesActivity" />
         <activity
-            android:name=".DeleteProfilePictureActivity"
+            android:name="io.github.project_software_with_opensource.DeleteProfilePictureActivity"
             android:icon="@drawable/moonagain"
             android:label="@string/remove_photo"
             android:theme="@android:style/Theme.NoDisplay">
@@ -157,7 +157,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".destinations.description.RestaurantDetailsActivity"
+            android:name="io.github.project_software_with_opensource.destinations.description.RestaurantDetailsActivity"
             android:theme="@style/AppThemeNoBar" />
 
         <receiver android:name="widget.CheckListWidgetProvider">

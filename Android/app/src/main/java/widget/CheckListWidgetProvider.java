@@ -8,8 +8,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.RemoteViews;
 
-import io.github.project_travel_mate.R;
-import io.github.project_travel_mate.utilities.ChecklistActivity;
+import io.github.project_software_with_opensource.R;
+import io.github.project_software_with_opensource.utilities.ChecklistActivity;
 
 /**
  * Created by Santosh on 11/09/2018.

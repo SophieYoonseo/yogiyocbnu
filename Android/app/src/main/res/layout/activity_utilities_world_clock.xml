@@ -60,7 +60,7 @@
 
     </RelativeLayout>
 
-    <io.github.project_travel_mate.utilities.AnalogClock
+    <io.github.project_software_with_opensource.utilities.AnalogClock
         android:id="@+id/clock_analog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
