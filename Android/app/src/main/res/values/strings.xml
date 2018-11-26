@@ -86,10 +86,10 @@
     <string name="prompt_city_name">Select City</string>
     <string name="prompt_start_date">Select Trip Date</string>
     <string name="prompt_add_trip">Add trip</string>
-    <string name="prompt_friend_name">Enter friend name</string>
-    <string name="prompt_add_friend">Add New friend</string>
+    <string name="prompt_friend_name">친구 이름 입력</string>
+    <string name="prompt_add_friend">친구추가</string>
     <string name="text_started_on">Started on :  </string>
-    <string name="progress_wait">Please wait…</string>
+    <string name="progress_wait">기다려주세요......</string>
     <string name="trip_added">Trip added</string>
     <string name="friend_added">Friend added to trip</string>
     <string name="no_friend_selected">Please select a valid friend to add</string>
@@ -153,7 +153,7 @@
     <string name="text_joining_date">Joined on %1$s</string>
     <string name="profile_picture_updated">Profile Picture Updated!</string>
     <string name="text_source">"Source : "</string>
-    <string name="no_friends_message">You haven\'t added any trip with friends yet</string>
+    <string name="no_friends_message">친구가 없습니다.</string>
     <string name="interest_know_more">Know More</string>
     <string name="interest_fun_facts">Fun Facts</string>
     <string name="interest_weather">View Weather Forecast</string>
@@ -285,7 +285,7 @@
     <string name="view_forecast">View weather forecast</string>
     <string name="city_not_found">Sorry! No weather forecast found for %1$s.</string>
     <string name="today">오늘</string>
-    <string name="showing_shopping_item">Searching for: %1$s</string>
+    <string name="showing_shopping_item">검색코드: %1$s</string>
     <string name="share_my_qr_code">나의 QR코드 공유하기</string>
     <string name="currency">Rs.</string>
     <string name="approx_cost">/- for 2 approx.</string>
