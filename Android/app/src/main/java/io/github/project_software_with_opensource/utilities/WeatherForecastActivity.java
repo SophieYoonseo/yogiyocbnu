@@ -3,6 +3,7 @@ package io.github.project_software_with_opensource.utilities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -54,19 +55,7 @@ public class WeatherForecastActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_utilities_weather_forecast);
 
-        ButterKnife.bind(this);
 
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        mToken = sharedPreferences.getString(USER_TOKEN, null);
-
-        fetchCitiesList();
-
-        selectCity.setOnClickListener(v -> showSearchDialog());
-
-        setTitle("Weather Forecast");
-
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     /**
@@ -154,7 +143,7 @@ public class WeatherForecastActivity extends AppCompatActivity {
     }
 
     public static Intent getStartIntent(Context context) {
-        Intent intent = new Intent(context, WeatherForecastActivity.class);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bds.bablabs.com/campuses"));
         return intent;
     }
 }

@@ -235,11 +235,11 @@
 
     <!-- Weather Strings -->
     <string name="humidity">%1$s humidity</string>
-    <string name="text_weather">Weather Forecast</string>
+    <string name="text_weather">당신의 오늘 학식 메뉴는????</string>
     <string name="weather_forecast_message">Check weather forecast of the city you wish to travel to!</string>
 
     <!-- Compass Strings -->
-    <string name="text_Compass">Compass</string>
+    <string name="text_Compass">전국 대학생 SNS </string>
     <string name="compass_dial">Compass Dial</string>
     <string name="compass_hands">Compass Hands</string>
     <string name="compass_dialog_header">Info</string>
@@ -282,7 +282,7 @@
     <string name="hotels_text">Tell us where are you travelling to? We will search hotels for you.</string>
 
     <!-- handle responses from Weather API -->
-    <string name="view_forecast">View weather forecast</string>
+    <string name="view_forecast">당신의 오늘 학식 메뉴는????</string>
     <string name="city_not_found">Sorry! No weather forecast found for %1$s.</string>
     <string name="today">오늘</string>
     <string name="showing_shopping_item">검색코드: %1$s</string>
@@ -295,7 +295,7 @@
     <string name="food">음식점</string>
     <string name="hangout">핫플레이스</string>
     <string name="hospital">병원</string>
-    <string name="petrol">주유소</string>
+    <string name="petrol">주유소</string>ㅈ
     <string name="travelling">버스 정거장</string>
     <string name="atm">ATM</string>
     <string name="more">More…</string>
