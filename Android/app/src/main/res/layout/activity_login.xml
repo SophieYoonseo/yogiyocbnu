@@ -43,7 +43,7 @@
                 android:layout_marginTop="50dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="center"
-                android:text="주제 미정"
+                android:text="너의 이름은"
                 android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold" />
