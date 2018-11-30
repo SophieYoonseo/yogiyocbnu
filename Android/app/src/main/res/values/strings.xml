@@ -71,7 +71,7 @@
     <string name="kms">kms</string>
 
     <!-- Checklist strings -->
-    <string name="text_checklist">Checklist</string>
+    <string name="text_checklist">맛집 조건분석</string>
     <string name="enter_task_name">Enter task name</string>
     <string name="menu_delete_completed">Delete ticked items</string>
     <string name="delete_tasks">Are you sure you want to delete all completed tasks?</string>

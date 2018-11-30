@@ -18,7 +18,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:alpha="0.2"
-            android:background="@drawable/moon"
+            android:background="@drawable/yourname"
             android:contentDescription="@string/empty_description"
             android:padding="10dp"
             android:scaleType="centerCrop" />
@@ -43,7 +43,7 @@
                 android:layout_marginTop="50dp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="center"
-                android:text="너의 이름은"
+                android:text="너의 학교는"
                 android:textColor="@color/white"
                 android:textSize="35sp"
                 android:textStyle="bold" />
