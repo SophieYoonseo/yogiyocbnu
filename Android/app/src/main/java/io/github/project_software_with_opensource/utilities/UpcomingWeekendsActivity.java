@@ -3,6 +3,7 @@ package io.github.project_software_with_opensource.utilities;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -87,7 +88,8 @@ public class UpcomingWeekendsActivity extends AppCompatActivity implements Swipe
     }
 
     public static Intent getStartIntent(Context context) {
-        return new Intent(context, UpcomingWeekendsActivity.class);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://timespread.co.kr/lectures"));
+        return intent;
     }
 
     private LinearLayoutManager getLayoutManager() {

@@ -255,7 +255,7 @@
     <string name="sample_timezone">Asia/Kolkata</string>
 
     <!-- Upcoming weekends Strings -->
-    <string name="upcoming_long_weekends">Upcoming long weekends</string>
+    <string name="upcoming_long_weekends">강의 평가 하기 </string>
     <string name="upcoming_long_weekends_no_items">There are no upcoming events</string>
 
     <!-- World Clock Strings -->
