@@ -70,22 +70,13 @@
             android:layout_alignParentBottom="true"
             android:background="#f5f5f5"
             android:padding="10dp"
-            android:text="@string/reject_daily_quotes_button"
+            android:text="다신 보지않기"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="14sp"
-            android:textAllCaps="false"
             app:pb_colorNormal="#f5f5f5"
-            app:pb_colorPressed="@color/light_grey"/>
+            app:pb_colorPressed="@color/light_grey" />
 
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_margin="@dimen/fab_margin"
-            android:src="@drawable/ic_share_white"/>
 
     </RelativeLayout>
 </LinearLayout>

@@ -57,7 +57,6 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import utils.DailyQuotesManager;
 
 import static utils.Constants.API_LINK_V2;
 import static utils.Constants.AUTHORIZATION;
@@ -105,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mToken = mSharedPreferences.getString(USER_TOKEN, null);
         mHandler = new Handler(Looper.getMainLooper());
 
-        DailyQuotesManager.checkDailyQuote(this);
+        UtilitiesFragment.newInstance();
 
         // To show what's new in our application
         WhatsNew whatsNew = WhatsNew.newInstance(
