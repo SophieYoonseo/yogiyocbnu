@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -375,7 +376,8 @@ public class CurrencyActivity extends AppCompatActivity {
     }
 
     public static Intent getStartIntent(Context context) {
-        return new Intent(context, CurrencyActivity.class);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://index.bithumb.com/coinsdaq/index.php?coin=BTC"));
+        return intent;
     }
 
     @Override

@@ -248,7 +248,7 @@
 
 
     <!-- Currency Convertor Strings -->
-    <string name="text_currency">Currency Converter</string>
+    <string name="text_currency">이시각 비트코인은?????</string>
     <string name="search_currencies">Search currencies..</string>
     <string name="output_0">0.0</string>
     <string name="convert">Convert</string>
