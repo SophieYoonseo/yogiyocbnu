@@ -3,6 +3,7 @@ package io.github.project_software_with_opensource.utilities;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.TextView;
 
+import java.net.URI;
 import java.util.Calendar;
 import java.util.Objects;
 import java.util.TimeZone;
@@ -106,7 +108,7 @@ public class WorldClockActivity extends AppCompatActivity {
     }
 
     public static Intent getStartIntent(Context context) {
-        Intent intent = new Intent(context, WorldClockActivity.class);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.incruit.com/?utm_source=google&utm_medium=cpc&utm_campaign=paid_keyword_google_pc&utm_term=%EC%B7%A8%EC%97%85&seedid=518147&epe_vid=103&epe_tcd=40175163&pco=107&gclid=cj0kcqiauf7fbrd7arisacqb8w4dqaimwfxlxy87ncc2s5"));
         return intent;
     }
 

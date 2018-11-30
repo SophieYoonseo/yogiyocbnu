@@ -259,7 +259,7 @@
     <string name="upcoming_long_weekends_no_items">There are no upcoming events</string>
 
     <!-- World Clock Strings -->
-    <string name="text_clock">World Clock</string>
+    <string name="text_clock">이시각 취업정보k</string>
     <string name="select_timezone">Select Timezone</string>
     <string name="search_timezone">Search Timezone..</string>
 
