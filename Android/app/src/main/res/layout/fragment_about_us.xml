@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text=" for 소프트웨어공학 프로젝트 " />
+            android:text=" 소프트웨어공학 프로젝트 앱 실력이 부족하여 오픈소스를 많이 이용하였습니다" />
 
         <android.support.v7.widget.CardView
             android:id="@+id/cv_fork"

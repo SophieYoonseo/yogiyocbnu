@@ -140,6 +140,7 @@
         <activity android:name="io.github.project_software_with_opensource.destinations.description.RestaurantsActivity" />
         <activity android:name="io.github.project_software_with_opensource.destinations.description.TweetsDescriptionActivity" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity android:name="io.github.project_software_with_opensource.utilities.QuotesActivity" />
         <activity
             android:name="io.github.project_software_with_opensource.DeleteProfilePictureActivity"
             android:icon="@drawable/moonagain"
