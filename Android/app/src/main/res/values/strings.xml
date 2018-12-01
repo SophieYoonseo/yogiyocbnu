@@ -54,8 +54,8 @@
     <string name="city_visited">You have visited this city!</string>
 
     <!-- Map strings -->
-    <string name="title">Select items to display in map</string>
-    <string name="choose">Select</string>
+    <string name="title">맵에 위치를 띄우고싶은 항목을 선택</string>
+    <string name="choose">선택</string>
     <array name="items">
         <item>음식점</item>
         <item>핫플레이스</item>
