@@ -75,11 +75,9 @@ public class AboutUsFragment extends Fragment {
 
     @OnClick(R.id.cv_share)
     public void onShareClicked() {
-        Intent sendIntent = new Intent(Intent.ACTION_SEND);
-        sendIntent.setType("text/plain");
-        sendIntent.putExtra(Intent.EXTRA_TEXT,
-                getString(R.string.share_text));
-        startActivity(sendIntent);
+        Intent viewIntent =
+                new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/saechimdaeki/yogiyocbnu/graphs/contributors?from=2018-11-18&to=2018-12-04&type=c"));
+        startActivity(viewIntent);
     }
 
     @OnClick(R.id.cv_report_bug)
@@ -91,6 +89,7 @@ public class AboutUsFragment extends Fragment {
             fragmentManager.beginTransaction().addToBackStack(null).replace(R.id.inc, fragment).commit();
         }
     }
+
 
 
 
