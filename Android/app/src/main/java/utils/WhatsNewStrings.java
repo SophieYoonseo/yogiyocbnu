@@ -3,9 +3,9 @@ package utils;
 public class WhatsNewStrings {
 
     // What's new in version code 17
-    public static final String WHATS_NEW1_TITLE = "Notifications";
+    public static final String WHATS_NEW1_TITLE = "소프트웨어 공학";
     public static final String WHATS_NEW1_TEXT =
-            "Get notifications when you are added in a trip by a friend.";
+            "현재 테스트 중인 기능 여기에 게시판 이나 업데이트 내용 추가 예정 .";
 
 
     // What's new in version code 16
