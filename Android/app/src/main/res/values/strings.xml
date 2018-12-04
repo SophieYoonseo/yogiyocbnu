@@ -299,7 +299,7 @@
     <string name="travelling">버스 정거장</string>
     <string name="atm">ATM</string>
     <string name="more">More…</string>
-    <string name="tap_for_more_details">Tap for more details</string>
+    <string name="tap_for_more_details">클릭하여 자세한내용 보기</string>
     <string name="trip_info_city_date_separater">|</string>
 
     <!--Tweets Strings -->
@@ -316,16 +316,16 @@
     <string name="password_updated">비밀번호 변경</string>
     <string name="status_character_limit">/100</string>
     <string name="remove_photo">제거</string>
-    <string name="choose_an_option">Choose an option</string>
+    <string name="choose_an_option">옵션 고르기</string>
     <string name="remove_profile_picture">프로필사진 삭제?</string>
-    <string name="delete_account">Are you sure you want to remove your travel mate account? This action can\'t be undone.</string>
+    <string name="delete_account">yogiyocbnu앱 계정을 삭제하시겠습니까? 되돌릴수없습니다.</string>
 
     <string name="done_label">완료</string>
     <string name="delete_label">계정 삭제</string>
     <!-- About us strings -->
     <string name="email_hello">Hello</string>
-    <string name="email_send">Send Email</string>
-    <string name="share_text">Hi! I found out this app for the travellers. Do download it : https://play.google.com/store/apps/details?id=io.github.project_travel_mate</string>
+    <string name="email_send">이메일 보내기</string>
+    <string name="share_text">안녕</string>
 
     <!-- Restaurants strings -->
     <string name="sort">정렬</string>
@@ -335,12 +335,12 @@
     <string name="alphabetically">가나다 ABC 순</string>
 
     <!-- Restaurant details -->
-    <string name="rest_address">Address: %s</string>
+    <string name="rest_address">주소: %s</string>
     <string name="avg_cost">평균가격: %s</string>
     <string name="price_range">가격의 범위: %s</string>
     <string name="rest_currency">Currency: %s</string>
     <string name="user_rating">평점: %s</string>
-    <string name="user_votes">Users Votes: %s</string>
+    <string name="user_votes">사용자들의 투표: %s</string>
     <string name="has_table_booking">예약가능합니다</string>
     <string name="cuisines">Cuisines: %s</string>
     <string name="phone_no">전화번호: %s</string>
