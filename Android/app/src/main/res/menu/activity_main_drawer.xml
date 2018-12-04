@@ -5,7 +5,7 @@
         <item
             android:id="@+id/nav_city"
             android:icon="@drawable/ic_location_city_black"
-            android:title="목적지" />
+            android:title="목적지(추가예정)" />
         <item
             android:id="@+id/nav_travel"
             android:icon="@drawable/ic_directions_car_black"
