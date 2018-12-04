@@ -26,12 +26,9 @@ import io.github.project_software_with_opensource.R;
  */
 public class AboutUsFragment extends Fragment {
 
-    private static final String EMAIL = "projecttravelmate.github.io@gmail.com";
-    private static final String WEBSITE = "http://project-travel-mate.github.io/Travel-Mate/";
-    private static final String PRIVACY_POLICY = "https://sites.google.com/view/privacy-policy-travel-mate/home";
+
     private static final String GITHUB_REPO = "https://github.com/saechimdaeki/yogiyocbnu";
-    private static final String SLACK_LINK = "https://join.slack.com/t/project-travel-mate/shared_invite/enQtNDE2MjgyOTA5ODg5LT" +
-            "gwZGQ3NmY3Y2JjZTIxMWYwMTdkYzZiZmFjMjQ1ZDc1ZmM5NTNkYzQ3M2EwNjVmMzIyYTE4YzRiNjA4ZWRhZDc";
+
 
 
     private Context mContext;
