@@ -21,21 +21,7 @@ public class ChecklistActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_check_list);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        ButterKnife.bind(this);
-
-        Fragment fragment;
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragment = ChecklistFragment.newInstance();
-        fragmentManager.beginTransaction().replace(R.id.checklist_root_layout, fragment).commit();
-
-        setTitle(getResources().getString(R.string.text_checklist));
-        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
     }
 
     @Override
