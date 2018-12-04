@@ -2,7 +2,6 @@ package io.github.project_software_with_opensource.utilities;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -49,7 +48,7 @@ public class ChecklistActivity extends AppCompatActivity {
     }
 
     public static Intent getStartIntent(Context context) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://61.99.141.200:8080/Project0.html"));
+        Intent intent = new Intent(context, ChecklistActivity.class);
         return intent;
     }
 }
