@@ -35,7 +35,7 @@ public class ChecklistActivity extends AppCompatActivity {
     }
 
     public static Intent getStartIntent(Context context) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://61.99.141.200:8080/Project0.html"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://61.99.141.193:8080/Project0.html"));
         return intent;
     }
 }
