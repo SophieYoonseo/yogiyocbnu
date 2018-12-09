@@ -132,8 +132,8 @@
     <string name="share_intent_text">Share Contact Details</string>
     <string name="share_menu">Share</string>
     <string name="share_contact_qr">Hey! Here is my contact information. Shared Using Travel Mate app. Download it from Play Store : https://play.google.com/store/apps/details/?id=io.github.project.project_travel_mate</string>
-    <string name="view_contact">View someone\'s Contact</string>
-    <string name="bottom_info_string">Share this code with the people to share your contact details.</string>
+    <string name="view_contact">QR코드 인식하기</string>
+    <string name="bottom_info_string">이 QR코드를 공유하여 친구를 맺어보세요.</string>
 
     <!-- Constant texts -->
     <string name="text_hangout">핫플레이스</string>
