@@ -10,10 +10,10 @@
  ### 김준성 :android programming             
  ### 김윤서: web programming  
  ## Start screen from mobile phone
- ![intro_animation](./image/intro_svg.JPG)
+ ![intro_animation](./image/intro_svg.jpg)
 
 ## Concept Login Screen
-![login](./image/login_layout.JPG)
+![login](./image/login_layout.jpg)
  
  
  주제가 뭐냐는 말을 많이들었는데 팀원끼리 정한 주제는 근처의 맛집을 조건에맞춰서 랜덤선택해주는것이였지만 
