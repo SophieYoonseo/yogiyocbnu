@@ -20,6 +20,27 @@
 
 ## Concept Login Screen
 ![login](./image/login_layout.jpg)
+
+## The screen that tells you what is updated when you log in for the first time.
+![what](./image/whatnew.jpg)
+
+## The main function screen of this app
+![main](./image/main.jpg)
+
+## Explore current location-based gps
+![gps](./image/gps.jpg)
+
+## Additional function
+![util](./image/util.jpg)
+
+## The restaurant is analyzed and presented through condition
+![zogun](./image/zogun.jpg)
+
+## In addition, you can see the current market price of bitcoin.
+![bitcoin](./image/bitcoin.jpg)
+
+## You can evaluate the lectures at your university.
+![lecture](./image/lecture.jpg)
  
  
  ## ※주제가 뭐냐는 말을 많이들었는데 팀원끼리 정한 주제는 근처의 맛집을 조건에맞춰서 랜덤선택해주는것이였지만 
