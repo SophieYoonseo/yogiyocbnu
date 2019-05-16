@@ -10,7 +10,8 @@
 
 ## 이기능은 빼고 이 기능 넣는게 낫지않나 ? 라는 의견도 있을 것 같고  그의견 수렴하여 pull request하면 merge하겠습니다 
 
-## 2019.05.16일 확인 결과 데이터베이스는 opensource를 이용하였는데 그 사이트가 사라져서 가입과 로그인이안되는상황.. 
+## 2019.05.16일 확인 결과 데이터베이스는 opensource를 이용하였는데 그 사이트가 사라져서 가입과 로그인이안되는상황.. (5월 안에 수정 예정)
+
 
  ### 김준성(saechimdaeki) :android programming             
  ### 김윤서(SophieYoonseo): web programming  
