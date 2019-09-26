@@ -1,4 +1,4 @@
-# yogiyocbnu
+# yogiyocbnu ---> yogiyojbnu
 
 
 
@@ -13,8 +13,8 @@
 ## 2019.05.16일 확인 결과 데이터베이스는 opensource를 이용하였는데 그 사이트가 사라져서 가입과 로그인이안되는상황.. (5월 안에 수정 예정)
 
 
- ### 김준성(saechimdaeki) :android programming             
- ### 김윤서(SophieYoonseo): web programming  
+ ### 김준성(saechimdaeki) :android programming(여러 기능들 구현)             
+ ### 김윤서(SophieYoonseo): web programming(조건 선택 후 맛집 추천하는 프로그램 구현)  
  ## Start screen from mobile phone
  ![intro_animation](./image/intro_svg.jpg)
 
@@ -43,5 +43,5 @@
 ![lecture](./image/lecture.jpg)
  
  
- ## ※주제가 뭐냐는 말을 많이들었는데 팀원끼리 정한 주제는 근처의 맛집을 조건에맞춰서 랜덤선택해주는것이였지만 
- ## app관련하여 코딩을 혼자하다보니 주제가 너무 초딩, 유아틱하다고 생각하여 여러기능을 추가하였습니다. ※
+ ## ※주제가 정확히 뭐냐는 말을 많이 들었는데 팀원끼리 정한 주제는 근처의 맛집을 조건에 맞춰서 랜덤 선택해 주는 것이었지만 
+ ## app관련하여 코딩을 하다보니 주제가 너무 초딩, 유아틱하다고 생각하여 여러 기능을 추가하였습니다. ※
